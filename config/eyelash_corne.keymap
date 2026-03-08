@@ -105,7 +105,7 @@
                                       &trans            &kp TAB          &none                                                                     &trans      &bt BT_CLR       &trans
             >;
 
-            sensor-bindings = <&scroll_encoder>;
+            sensor-bindings = <&inc_dec_kp LA(TAB) LS(LA(TAB))>;
         };
     };
 };
